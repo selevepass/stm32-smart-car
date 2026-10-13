@@ -1,0 +1,35 @@
+# Keil μVision 构建产物
+/Mcu_car/Objects/
+/Mcu_car/Listings/
+/Mcu_car/DebugConfig/
+/Mcu_car/*.uvguix.*
+/Mcu_car/*.uvgui.*
+/Mcu_car/*.bak
+/Mcu_car/*.dep
+/Mcu_car/*.lnp
+/Mcu_car/*.sct
+/Mcu_car/*.map
+/Mcu_car/*.htm
+/Mcu_car/*.build_log.htm
+/Mcu_car/*.axf
+/Mcu_car/*.hex
+/Mcu_car/*.bin
+/Mcu_car/*.lst
+/Mcu_car/*.crf
+/Mcu_car/*.o
+/Mcu_car/*.d
+/RTE/_*/
+
+# 调试器日志
+/Mcu_car/JLinkLog.txt
+/Mcu_car/JLinkLog*.txt
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 源文件备份
+*.orig
